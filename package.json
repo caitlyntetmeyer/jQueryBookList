@@ -4,9 +4,7 @@
   "description": "An ajax intro project.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-
-    
+    "start": "node index.js"    
   },
   "author": "Caitlyn Tetmeyer",
   "license": "ISC"
