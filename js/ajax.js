@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'http://rest.learncode.academy/api/learncode/friends',
+		url: 'http://rest.learncode.academy/api/learncode/booklist',
 		success: function(friends) {
 			$.each(friends, function(i, friend){
 				addFriend(friend);
