@@ -48,7 +48,7 @@ $(document).ready(function(){
 		*/
 		$.ajax({
 			type: 'POST',
-			url: 'http://rest.learncode.academy/api/learncode/friends',
+			url: 'http://rest.learncode.academy/api/learncode/booklist',
 			data: friend,
 			success: function(newFriend){
 				addFriend(newFriend);
@@ -66,7 +66,7 @@ $(document).ready(function(){
 		// identifies what to delete
 		$.ajax({
 			type: "DELETE",
-			url: 'http://rest.learncode.academy/api/learncode/friends/' + $(this).attr('id'),
+			url: 'http://rest.learncode.academy/api/learncode/booklist/' + $(this).attr('id'),
 			success: function(){
 				$li.fadeOut(300, function(){
 					$(this).remove();
