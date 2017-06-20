@@ -4,7 +4,9 @@
   "description": "An ajax intro project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+
+    
   },
   "author": "Caitlyn Tetmeyer",
   "license": "ISC"
