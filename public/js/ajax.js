@@ -12,7 +12,6 @@ var friendTemplate = "" +
 	"<p><strong>Author:</strong> {{age}}</p>" +
 	"<button id='{{id}}' class='remove'>Remove</button>" +
 	"</li>" +
-	"<hr>" +
 	"</div>";
 
 // Create an addFriend method above the jQuery code:
